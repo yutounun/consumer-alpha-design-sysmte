@@ -3,6 +3,9 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+/* Scan alpha-design-system dist so Button utilities (e.g. px/py) are generated */
+@source "../node_modules/alpha-design-system/dist";
+
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
